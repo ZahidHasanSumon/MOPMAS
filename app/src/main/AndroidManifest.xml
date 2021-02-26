@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mopmas"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ExerciseActivity.RunningActivity"></activity>
+        <activity android:name=".TherapistActivity.ShowPatientProgress" />
+        <activity android:name=".UserProgress" />
+        <activity android:name=".TherapistActivity.MainActivityTherapist" />
+        <activity android:name=".ExerciseActivity.TrunkRotation" />
+        <activity android:name=".ExerciseActivity.WeightBearingLean" />
+        <activity android:name=".ExerciseActivity.OpenArmExercise" />
+        <activity android:name=".ExerciseActivity.UnweightedBicepCurls" />
+        <activity android:name=".ExerciseActivity.TabletopCircleExercise" />
+        <activity android:name=".ExerciseActivity.bottom_sheet_layout" />
+        <activity android:name=".ExerciseActivity.AnkleDorsiflexion" />
+        <activity android:name=".ExerciseActivity.KneeExtensions" />
+        <activity android:name=".ExerciseActivity.SeatedMarching" />
+        <activity android:name=".ReminderActivity.Reminder2" />
+        <activity android:name=".ExerciseActivity.MainDbHelper" />
+        <activity android:name=".ReminderActivity.Reminder1" />
+        <activity android:name=".TherapistRegistration" />
+        <activity android:name=".TherapistLogin" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UserRegistration" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".LandingPage" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".ReminderActivity.AlertReceiver"
+            android:process=":remote" />
+    </application>
+
+</manifest>

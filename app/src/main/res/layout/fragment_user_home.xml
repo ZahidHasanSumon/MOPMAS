@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserHomeFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:auto_cycle="true"
+        app:corner_radius="20"
+        app:period="1000"
+        app:delay="10"
+        android:layout_marginTop="05dp"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is stroke?"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A stroke is a brain attack. When blood carrying essential nutrients and oxygen to the brain is cut off, stroke happens."
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/stroke1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Types of stroke"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="655dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="There are different types of stroke. An ischaemic stroke is caused by a blockage of blood supply to the brain. A haemorrahagic stroke is caused by bleeding in or around the brain. No matter the type of stroke, it affects not just how your body works, but how you think, feel, and communicate." />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="780dp"
+        android:src="@drawable/stroketype" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1130dp"
+        android:text="Stroke prevention"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1160dp"
+        android:text="1. Manage your medical conditions\n2. Stop smoking\n3. Drink less alcohol\n4. Keep your weight healthy\n5. Exercise more\n6. Eat healthy"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1300dp"
+        android:text="F.A.S.T"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="1340dp"
+        android:src="@drawable/cap" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="1550dp"
+        android:src="@drawable/cap1" />
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="1760dp"
+        android:src="@drawable/cap2" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="1970dp"
+        android:src="@drawable/cap3" />
+</RelativeLayout>
+
+
+</ScrollView>

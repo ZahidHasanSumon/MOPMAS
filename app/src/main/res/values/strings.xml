@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MOPMAS</string>
+    <string name="exercise_prompt">Choose your exercise</string>
+    <string name="home">Home</string>
+    <string name="health">Health</string>
+    <string name="Reminder">Reminder</string>
+    <string name="me">Me</string>
+    <string name="add">Add Patient</string>
+    <string name="progress">Progress</string>
+    <string-array name="exercise_type">
+        <item>All Exercise</item>
+        <item>Legs</item>
+        <item>Arms</item>
+        <item>Balance and Core</item>
+        <item>Shoulders and Upper Extremity</item>
+        <item>Wrists, Hands, and Fingers</item>
+        <item>Exercises for Paralysis</item>
+    </string-array>
+
+    <string name="repeat_prompt">Choose notification method</string>
+    <string-array name="repeat">
+        <item>--Choose notification method--</item>
+        <item>Repeat every 8 hours</item>
+        <item>Repeat every 12 hours</item>
+        <item>Repeat everyday</item>
+        <item>Repeat every week</item>
+        <item>Repeat every month</item>
+        <item>Does not repeat</item>
+    </string-array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="appname">Profile UI</string>
+    <string name="twitterUsername">\@joeytribbiani</string>
+
+</resources>
